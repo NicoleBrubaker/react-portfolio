@@ -1,46 +1,75 @@
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div style={{}}>
+    <div
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        right: 0,
+        backgroundColor: "#FF5733",
+        height: "32px",
+      }}
+    >
       <ul
-        className="nav nav-tabs"
-        style={{ position: "fixed", top: 0, right: 20 }}
+        style={{
+          display: "flex",
+          justifyContent: "flex-end",
+          alignItems: "center",
+          height: "100%",
+          margin: 0,
+          padding: 0,
+        }}
       >
-        <li className="nav-item">
+        <li style={{ listStyleType: "none" }}>
           <Link
             to="/"
             className={currentPage === "/" ? "nav-link active" : "nav-link"}
+            style={{
+              color: "white",
+              padding: "0 10px",
+              height: "100%",
+              display: "flex",
+              alignItems: "center",
+            }}
           >
             About Me
           </Link>
         </li>
-        <li className="nav-item">
+        <li style={{ listStyleType: "none" }}>
           <Link
             to="/Projects"
             className={
               currentPage === "/Projects" ? "nav-link active" : "nav-link"
             }
+            style={{
+              color: "white",
+              padding: "0 10px",
+              height: "100%",
+              display: "flex",
+              alignItems: "center",
+            }}
           >
             My Projects
           </Link>
         </li>
-        {/* <li className="nav-item">
-        <Link
-          to="/Resume"
-          className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}
-        >
-          Resume
-        </Link>
-      </li> */}
-        <li className="nav-item">
+        <li style={{ listStyleType: "none" }}>
           <Link
             to="/Contact"
             className={
               currentPage === "/Contact" ? "nav-link active" : "nav-link"
             }
+            style={{
+              color: "white",
+              padding: "0 10px",
+              height: "100%",
+              display: "flex",
+              alignItems: "center",
+            }}
           >
             Contact
           </Link>

@@ -1,9 +1,23 @@
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div
+      style={{
+        top: 12
+      }}
+    >
+      <h1>a little about me</h1>
       <p>
-        My name is Nicole blah blah blah
+        As a fresh face in the world of full stack web development with a love
+        for UX/UI design, I'm embarking on a journey filled with learning and
+        growth. My passion lies in tackling new challenges and rapidly adapting
+        to new technologies. I'm a true team player, enjoying opportunities to
+        collaborate, exchange ideas, and contribute to a shared vision. What
+        drives me in web development is the thrill of problem-solving and the
+        joy of turning concepts into reality. Away from the keyboard, I find joy
+        in camping trips and outdoor adventures with my family, experiences that
+        refresh and inspire me. My approach to both life and work is grounded in
+        positivity, a willingness to learn, and a commitment to making every day
+        count.
       </p>
     </div>
   );
