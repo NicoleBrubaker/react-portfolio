@@ -57,8 +57,8 @@ export default function Home() {
 
   return (
     <div style={{ maxWidth: "56rem", margin: "0 auto", padding: "16px" }}>
-      <h1>Home Page</h1>
-      <p>This is my projects page.</p>
+      <h1>Check out my work.</h1>
+      <p>Below are a few projects I have created.</p>
       <div
         style={{
           display: "flex",
