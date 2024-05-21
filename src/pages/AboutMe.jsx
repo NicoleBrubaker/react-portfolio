@@ -1,7 +1,10 @@
 export default function About() {
   return (
     <div style={{ maxWidth: "56rem", margin: "0 auto", padding: "16px" }}>
-      <h1>Hello, my name is Nicole Brubaker.</h1>
+      <h1>
+        Hello, my name is{" "}
+        <span style={{ color: "#A38273" }}>Nicole Brubaker.</span>
+      </h1>
       <p>
         As a fresh face in the world of full stack web development with a love
         for UX/UI design, I'm embarking on a journey filled with learning and

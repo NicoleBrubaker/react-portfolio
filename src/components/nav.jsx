@@ -11,7 +11,7 @@ function Nav() {
         top: 0,
         left: 0,
         right: 0,
-        backgroundColor: "#FF5733",
+        backgroundColor: "#D5C2A0",
         height: "32px",
       }}
     >
