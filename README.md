@@ -14,7 +14,7 @@ This is a work in progress that will have future improvements!
 
 GitHub Repo: https://github.com/NicoleBrubaker/react-portfolio
 
-Live Link: https://nicolebrubaker.github.io/react-portfolio/
+Live Link: https://brubaker-portfolio.netlify.app
 
 Working app: 
 ![screenshot of app](image.png)
